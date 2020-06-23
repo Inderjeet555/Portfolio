@@ -154,7 +154,70 @@
     position: relative;
 }
 
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: -190px;
+    top: 0%;
+    background-color: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+   font: normal bold 84px/40px var(--roboto);
+   color: var(--primary-color2);
+   z-index: 2;
+
+}
+
+.site-main .brand-area .experience-area .years-area h2> span{
+    font: normal 600 22px/30px var(--roboto);    
+ }
+
+ .site-main .brand-area .experience-area .call-area{
+    padding-left: 10rem; 
+ }
+
+ .site-main .brand-area .experience-area .call-area .phone-icon{
+    /* transition-property: transform; */
+    transform: rotate(97deg);
+    padding-top: 7px;
+ }
+
 /* End brand area */
+
+
+/* Services Area */
+
+.site-main .services-area {
+    padding: 7rem 2rem;
+}
+
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;    
+}
+
+.site-main .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main .services-area .services:hover{
+    box-shadow: var(--box-shadow);   
+}
+
+/* End Services Area */
 
 
 
