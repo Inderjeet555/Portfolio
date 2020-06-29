@@ -173,6 +173,7 @@
 }
 
 .site-main .brand-area .experience-area .years-area h2> span{
+    padding-left: 25px;
     font: normal 600 22px/30px var(--roboto);    
  }
 
